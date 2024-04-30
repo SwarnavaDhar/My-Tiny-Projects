@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 97vh;
+    width: 98vw;
+    background-color: rgb(1, 1, 23)
+}
+#h1{
+    font-size: 50px;
+    text-align: center;
+    color: bisque;
+    margin: 20px;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: #FC0 1px 0 10px;
+}
+.main{
+    height: 80vh;
+    width: 98vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 48vh;
+    width: 20vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: ease-in-out 0.5s;
+}
+.main h1:hover{
+    color: black;
+    font-size:50px ;
+    transition: ease-in-out 0.5s;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 50vh;
+    width: 15vw;
+    background-color:  black;
+    border-radius: 15px;
+    box-shadow: 10px -5px 25px red;
+    border: 1px red solid;
+    transition: ease-in-out 0.5s;
+}
+.box1:hover{
+    background-color: rgb(213, 42, 42);
+    transition: ease-in-out 0.5s;
+    box-shadow: 25px -15px 55px red;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 50vh;
+    width: 15vw;
+    background-color:  black;
+    border-radius: 15px;
+    box-shadow: 10px -5px 25px rgb(72, 72, 235);
+    border: 1px rgb(72, 72, 235) solid;
+    transition: ease-in-out 0.5s;
+}
+.box2:hover{
+    background-color: rgb(72, 72, 235);
+    transition: ease-in-out 0.5s;
+    box-shadow: 25px -15px 55px rgb(72, 72, 235);
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 50vh;
+    width: 15vw;
+    background-color:  black;
+    border-radius: 15px;
+    box-shadow: 10px -5px 25px orange;
+    border: 1px orange solid;
+    transition: ease-in-out 0.5s;
+}
+.box3:hover{
+    background-color: orange;
+    transition: ease-in-out 0.5s;
+    box-shadow: 25px -15px 55px orange;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    height: 50vh;
+    width: 15vw;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 10px -5px 25px rgb(248, 83, 111);
+    border: 1px rgb(248, 83, 111) solid;
+    transition: ease-in-out 0.5s;
+}
+.box4:hover{
+    background-color: rgb(248, 83, 111);
+    transition: ease-in-out 0.5s;
+    box-shadow: 25px -15px 55px rgb(248, 83, 111);
+}
+
+/*  (********************************************************************* My Sign **************************************************************************) */
+.footer-area{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -50px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 95px;
+    padding: 17px;
+    margin: 10px;
+    width: 145px;
+    height: 60px;
+    border: 2px solid white;
+}
+.sign span{
+    color: beige;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*  (********************************************************************* My Sign **************************************************************************) */
