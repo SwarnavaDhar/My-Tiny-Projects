@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: black;
+}
+.head{
+    width: 96.5vw;
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+}
+h1{
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    text-decoration:underline;
+}
+.mySign{
+    border: 2px solid rgb(255, 223, 223);
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    padding: 2px
+}
+img{
+    /* border: 5px solid rgb(0, 0, 0); */
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+.main > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main > div > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.main{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+.main .wide{
+    grid-column: span ;
+}
+.main .tall{
+    grid-row: span 2;
+}
+.main .big{
+    grid-column: span 2;
+    grid-row: span 2;
+}
