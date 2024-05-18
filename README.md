@@ -7,3 +7,5 @@ This Repository portrays my tiny projects/practices, which are very useful if yo
 3. Responsive Gallery - Made a responsive Gallery using HTML and CSS, used grid and flex properties, not used media-query property.
 
 4. Search Bar - A Unique Search Bar using HTML and CSS, with little bit of transition property for smoothness.
+
+5. Random Colour Generator - A very common JS project, which helps us to learn dom better. Added a start and stop button. Clicking on "start" it starts generating random colour untill the user clicks "stop"
