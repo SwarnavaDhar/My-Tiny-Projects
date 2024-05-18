@@ -11,3 +11,5 @@ This Repository portrays my tiny projects/practices, which are very useful if yo
 5. Random Colour Generator - This is a random colour generator, when the user clicks on the "start" button it start generating random colour and whenever user clicks "stop", it stops.
 
 6. Nothing - A concept project, for the brand Nothing, completely responsive webpage, and used JS for hamburger menu.
+
+7. Netflix Clone - Made a clone of Netflix landing page.
