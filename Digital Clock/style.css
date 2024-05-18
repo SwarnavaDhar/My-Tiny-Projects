@@ -1,0 +1,77 @@
+ /* body {
+        background-image: url(first-photo.jpg), url(second-photo.jpg);
+        background-position: left, right;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 50%, 50%;
+    } */
+
+body {
+    background: linear-gradient(to right, red 50%, rgb(0, 0, 0) 50%);
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 70px;
+    margin-top: 100px;
+}
+.Digi{
+    color: rgb(0, 0, 0);
+}
+.clock{
+    color: red;
+}
+.clockContainer {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(106, 255, 0);
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 40px;
+}
+#clock {
+    font-size: 100px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 90px;
+    box-shadow: 10px 5px 55px 5px rgb(255, 255, 255);
+    border: 2px solid white;
+}
+
+/*  (********************************************************************* My Sign **************************************************************************) */
+.footer-area{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 150px;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 95px;
+    padding: 10px;
+    margin: 12px;
+    width: 185px;
+    height: 60px;
+    border: 2px solid white;
+}
+.sign span{
+    color: beige;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*  (********************************************************************* My Sign **************************************************************************) */

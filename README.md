@@ -13,3 +13,5 @@ This Repository portrays my tiny projects/practices, which are very useful if yo
 6. Nothing - A concept project, for the brand Nothing, completely responsive webpage, and used JS for hamburger menu.
 
 7. Netflix Clone - Made a clone of Netflix landing page.
+
+8. Digital clock - Made a simple digital clock, which shows you current time, using JS
