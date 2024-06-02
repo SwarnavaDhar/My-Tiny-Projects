@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    width: 98vw;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    background-image:url("https://img.freepik.com/free-vector/gradient-glassmorphism-background_23-2149440840.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713225600&semt=ais");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 290px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.147);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: verdana;
+    font-size: 30px;
+}
