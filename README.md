@@ -1,7 +1,7 @@
 
-# Frontend Web Development Projects
+# Frontend Web Development Tiny Project Practices
 
-This repository showcases a collection of small projects and practices that are incredibly useful for anyone beginning their frontend web development journey. These projects are designed to help you learn and bring new ideas to the table.
+This repository showcases a collection of small practices that are incredibly useful for anyone beginning their frontend web development journey. These projects are designed to help you learn and bring new ideas to the table.
 
 ### Cards Design
 Created a card design using HTML and CSS, featuring animations and hover effects commonly seen on websites.
