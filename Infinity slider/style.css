@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.artists{
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 15px 15px;
+    white-space: nowrap;
+    position: relative;
+}
+.artists .one{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    animation: 10s showImages infinite linear ;
+}
+.artists .one img{
+    height: 50px;
+    width: 100px;
+    object-fit: cover;
+    margin: 20px;
+}
+.artists:hover .one{
+    animation-play-state: paused;
+}
+.artists:before,
+.artists:after{
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+.artists:before{
+    left: 0;
+    background:linear-gradient(to left, transparent, rgb(81, 81, 81));
+}
+.artists:after{
+    right: 0;
+    background:linear-gradient(to right, transparent, rgb(81, 81, 81));
+}
+
+@keyframes showImages{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-1000px);
+    }
+}
