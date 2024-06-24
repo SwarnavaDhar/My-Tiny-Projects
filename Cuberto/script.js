@@ -79,6 +79,8 @@ function ScrollAnimation() {
 }
 ScrollAnimation();
 
+// Drag feature, currently not working
+
 // Mouse Interaction on Designs Section
 // const track = document.querySelector('.designs');
 // window.onmousedown = e => track.dataset.mouseDownAt = e.clientX;
