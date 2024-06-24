@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box; 
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    overflow-x: hidden;
+}
+/*.cursor{
+     height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background: rgb(0, 0, 0); */
+    /* position: fixed; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: verdana;
+    z-index: 9; 
+}*/
+/* .overlay{
+    background-color: transparent;
+    height: 100vh;
+    width: 99vw;
+    position: absolute;
+    z-index: 10;
+} */
+.main{
+    width: 100vw;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+}
+.nav{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+.nav .right{
+    height: 30px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.nav img{
+    width: 100px;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.nav i{
+    font-size: 25px;
+    position: fixed;
+    margin-left: 80px;
+}
+/* .nav i:hover{
+    background-color: black;
+    color:white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.home .homemain{
+    height: 70vh;
+    margin-top: 50px;
+}
+.home .homemain h1, .headings{
+   margin-left: 200px;
+}
+.home .homemain h1,h2{
+    font-size: 130px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -10px;
+}
+.video-head{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+.video-head .videocontain{
+    height: 150px;
+    width: 200px;
+    border-radius: 80px;
+}
+.video-head .videocontain video{
+    height: 150px;
+    width: 220px;
+    border-radius: 80px;
+    object-fit: cover;
+}
+.video-head h2 span{
+    font-style: italic;
+    font-weight: 300;
+}
+.mainvdo{
+    height: 100vh;
+    width: 100vw;
+    margin-top: -110px;
+}
+.page3{
+    height: 100vh;
+    width: 99vw;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    /* background-color: red; */
+}
+.page3 .video video{
+    height: 600px;
+    width: 600px;
+}
+.page3 .desc{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+.page3 .desc p{
+    font-size: 40px;
+    font-weight: 490;
+    letter-spacing: -1px;
+}
+.page3 button {
+    outline: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 250px;
+    border-radius: 150px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+.page3 button div {
+    transform: translateY(0px);
+    width: 100%;
+}
+.page3 button,
+   button div {
+    transition: 0.6s cubic-bezier(.16,1,.3,1);
+}
+.page3 button div span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    padding: 0.75em 1.125em;
+} 
+.page3 button div:nth-child(1) {
+    background-color: white;
+}  
+.page3 button div:nth-child(2) {
+    background-color: #000000;
+}
+.page3 button:hover div {
+    transform: translateY(-280px);
+}
+.page3 button span p{
+    color: black;
+    margin-left: 150px;
+}
+.page3 button:hover p {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-left: 150px;
+    font-weight: 100;
+} 
+.page3 button:active {
+    transform: scale(0.95);
+}
+.project{
+    height: 630vh;
+    width: 99.5vw;
+    background-color: #161616;
+    border-start-start-radius: 100px;
+    border-start-end-radius: 100px;
+}
+.projecthead{
+    height: 400px;
+    width: 850px;
+    /* background-color: red; */
+    padding: 130px;
+    margin-left: 100px;
+}
+.project h1{
+    color: white;
+    font-weight: 500;
+    font-size: 180px;
+    letter-spacing: -10px;
+}
+.project .Introvdo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.project .Introvdo h1{
+    font-style: italic;
+    font-weight: 300;
+}
+.project .Introvdo video{
+    height: 180px;
+    width: 280px;
+    border-radius: 80px;
+    object-fit: cover;
+}
+.projects1{
+    margin-left: 240px;
+    display: flex;
+    gap: 80px;
+}
+.projects1 video{
+    border-radius: 50px;
+}
+.projects1 .one{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    width: 600px ;
+    /* background-color: red; */
+}
+.projects1 .one h1, .two h1{
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.projects1 .two{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    width: 600px ;
+    margin-top: 500px;
+    /* background-color: antiquewhite; */
+}
+.philomain{
+    height: 170vh;
+    width: 99.1vw;
+    background-color: #161616;
+}
+.philosophy{
+    height: 170vh;
+    background-color: white;
+    border-start-start-radius: 100px;
+    border-start-end-radius: 100px;
+}
+.philomain .philosophy .headings{
+    padding: 150px;
+    line-height: 180px;
+    margin-left: 100px;
+    width: 60vw;
+    /* background-color: red; */
+}
+.philosophy h1{
+    font-size: 200px;
+    font-weight: 400;
+    letter-spacing: -10px;
+}
+.philosophy h1:nth-child(2){
+    font-style: italic;
+    font-weight: 300;
+}
+.philomain .philosophy .philoVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: -20px;
+}
+.philomain .philosophy .philoVideo .desc p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.development{
+    width: 99.2vw;
+    background-color: #161616;
+    border-start-start-radius:100px;
+    border-start-end-radius:100px;
+}
+.development .headings{
+    padding: 180px;
+    margin-left: 10px;
+}
+.development .headings h1{
+    color: white;
+    font-size: 150px;
+    font-weight: 500;
+    letter-spacing: -10px;
+    line-height: 130px;
+}
+.development .headings h1:nth-child(3){
+    font-style: italic;
+    font-size: 180px;
+    font-weight: 350;
+}
+.designs{
+    background-color: #161616;
+    /* background-color: blue; */
+    display: flex;
+    overflow: hidden;
+}
+.designs #dsn1{
+    margin-left: 200px;
+}
+.designs .dsn1{
+    margin-left: 50px;
+    /* background-color: red; */
+}
+.designs img{
+    height: 350px;
+    border-radius: 30px;
+    transition: linear 0.2s;
+}
+.designs img:hover{
+    transform: scale(0.98);
+    transition: linear 0.2s;
+}
+.designs h1{
+    color: white;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.allrsrc{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allrsrc .blank{
+    height: 500px;
+    width: 500px;
+    background-color: #161616;
+}
+.allrsrc div p{
+    color:white;
+    font-size: 30px;
+}
+
+.allrsrc button {
+    outline: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 70px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-top: 50px;
+    border: 1px solid white;
+}
+.allrsrc button div {
+    transform: translateY(0px);
+    width: 100%;
+}
+.allrsrc button,
+.allrsrc button div {
+    transition: 0.6s cubic-bezier(.16,1,.3,1);
+}
+.allrsrc button div span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0.75em 1.125em;
+}
+.allrsrc button div:nth-child(1) {
+    background:#161616;
+}
+.allrsrc button div:nth-child(2) {
+    background-color: white;
+}
+.allrsrc button:hover div {
+    transform: translateY(-90px);
+}
+.allrsrc button p {
+    margin-top: -20px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 100;
+}
+.allrsrc button:hover p{
+    color: black
+}
+.allrsrc button:active {
+    transform: scale(0.95);
+}
+.marqueemain{
+    margin-top: 150px;
+    height: 50vh;
+    width: 99.5vw;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.marqueecontain{
+    display: inline-flex;
+}
+.marquee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.marquee h1{
+    font-size: 250px;
+    font-weight: 400;
+    letter-spacing: -5px;
+}
+.marquee h1:nth-child(3){
+    font-style: italic;
+    font-weight: 300;
+}
+.marquee div video{
+    height: 200px;
+    width: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+#imgid{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.design {
+    height: 60vh;
+    display: flex;
+    gap: 30px;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+}
+.image:nth-child(odd) img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    transition: linear 0.2s;
+}
+.image:nth-child(even) img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    transition: linear 0.2s;
+    margin-top: 100px;
+}
+.design .image img:hover{
+    transform: scale(0.98);
+    transition: linear 0.2s;
+}
+.image div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.image div i{
+    font-size: 24px;
+}
+.image div h1{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.footer{
+    background-color: black;
+}
+#lastmarqueemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lastmarqueemain h1{
+    color: white;
+    font-size: 200px;
+    font-weight: 400;
+}
+.circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.text{
+    height: 100%;
+    width: 100%;
+    color: black;
+    animation: circle 10s linear infinite;
+}
+.text div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text div video{
+    height: 100px;
+    width: 100px;
+}
+.text span{
+    position: absolute;
+    left: 50%;
+    transform-origin: 0px 100px;
+}
+.circle .text p{
+    font-size: 24px;
+    display: flex;
+}
+@keyframes circle{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+       transform: rotate(360deg)
+    }
+}
+.footer #social-heading{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    padding: 0px 100px;
+}
+.footer .social .sites{
+    height: 150px;
+    border-bottom: 1px solid rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+/* .sites:hover{
+    background-color: red;
+    transition: linear 0.5s;
+} */
+.sites h1{
+    color: white;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-size: 35px;
+}
+.sites i{
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
+}
+.officemain{
+    display: flex;
+    gap: 250px;
+}
+.office{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0px 100px;
+    color: white;
+}
+.office p span{
+    font-size: 30px;
+}
+.office p span:nth-child(1){
+    margin-left: 20px;
+}
+.office button{
+    margin-top: 50px;
+    height: 70px;
+    width: 380px;
+    border-radius: 50px;
+    background:none;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    font-size: 30px;
+}
+#num{
+    width: 280px;
+}
