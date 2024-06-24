@@ -36,7 +36,7 @@ Demonstrated various transformation properties in HTML and CSS on a dedicated we
 ### 11. Glassmorphism Effect
 Explored the trendy glassmorphism effect by creating a static page using only HTML and CSS.
 
-### 12. ### 12. Cuberto Clone
+### 12. Cuberto Clone
 Tried replicating the Cuberto website using HTML, CSS, JavaScript, Locomotive Scroll, GSAP, and Shery.js. This project is not an exact clone but incorporates new and innovative features.
 
 
