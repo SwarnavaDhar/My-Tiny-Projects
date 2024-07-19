@@ -37,4 +37,4 @@ Demonstrated various transformation properties in HTML and CSS on a dedicated we
 Explored the trendy glassmorphism effect by creating a static page using only HTML and CSS.
 
 
-These projects not only reinforce fundamental concepts but also provide practical examples of modern web design techniques.
+These projects reinforce fundamental concepts and provide practical examples of web design techniques.
