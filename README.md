@@ -17,7 +17,6 @@ Designed a unique search bar using HTML and CSS, incorporating transition proper
 
 ### 5. Random Color Generator
 Implemented a random color generator where clicking the "start" button generates random colors, and clicking "stop" halts the process.
-
 ### 6. Nothing Concept Project
 Created a fully responsive webpage for the brand Nothing, incorporating a JavaScript-powered hamburger menu.
 
@@ -38,6 +37,25 @@ Explored the trendy glassmorphism effect by creating a static page using only HT
 
 ### 12. Cuberto Clone
 Tried replicating the Cuberto website using HTML, CSS, JavaScript, Locomotive Scroll, GSAP, and Shery.js. This project is not an exact clone but incorporates new and innovative features.
+
+### 13. Resize Property 
+Made a tiny project, showcasing the less known 'resize' property.
+
+### 14. Draggable Element
+Made a tiny project, using HTML, CSS and Javascript, user can drag elements according anywhere in the screen, and it moves accordingly with the mouse.
+
+### 15. Draggable Image Slider
+Made a tiny project, using HTML, CSS and Javascript, an image slider which moves according to the mouse drag direction of the user.
+
+### 16. Tab Detection
+Made a tiny tab detecion system, using HTML, CSS and Javascript, when user swtches between tabs, it detects that.
+
+### 17. Text in Image
+Text in Image basically showcases a random text which has a transparent color and instead of the color there's a image in the background.
+
+### 18. Infinity Slider
+Made an Infinity slider using HTML, CSS very common and widely used.
+
 
 
 These projects reinforce fundamental concepts and provide practical examples of web design techniques.
